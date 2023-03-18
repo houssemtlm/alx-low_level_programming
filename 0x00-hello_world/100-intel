@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE > task7.s 
+gcc -S -asm=intel $CFILE > task7.s 
